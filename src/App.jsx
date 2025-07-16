@@ -9,7 +9,7 @@ const App = () => {
     phone: "702-888-2086",
     linkedin: "https://linkedin.com/in/tigran-saakian",
     github: "https://github.com/Tigraniko",
-    education: "West Career and Technical Academy 2026 (Cybersecurity Course)",
+    education: "West Career and Technical Academy 2026 (Cybersecurity Program)",
     certifications: [
       "CompTIA A+ - May 2025",
       "CompTIA Security+ - June 2025",
@@ -18,7 +18,7 @@ const App = () => {
     experience: [
       "CyberPatriot: Platinum Team Leader - 2024/2025",
       "National Cyber League: Top 15% in the nation (2025)",
-      "Top 10% in High School Division (2025)"
+      "National Cyber League: Top 10% in High School Division (2025)"
     ]
   };
 
@@ -40,8 +40,8 @@ const App = () => {
           <section className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-purple-300">Welcome to My Cybersecurity Portfolio</h2>
             <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
-              I'm Tigran Saakian, a dedicated cybersecurity enthusiast currently pursuing my studies in Cybersecurity at West Career and Technical Academy. 
-              With a strong foundation in various IT and security certifications, I'm passionate about protecting digital systems and solving complex technical challenges.
+              I'm Tigran Saakian, a high school student currently pursuing my studies in Cybersecurity at West Career and Technical Academy. 
+              With a strong foundation in many IT and cybersecurity certifications, I'm passionate about what I do and solving the challenges that might come up.
             </p>
             <div className="flex justify-center space-x-4">
               <button onClick={() => setCurrentPage('information')} className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded transition duration-300">View My Achievements</button>
